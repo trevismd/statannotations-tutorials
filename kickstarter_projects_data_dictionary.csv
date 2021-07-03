@@ -1,0 +1,12 @@
+Field,Description
+ID,Internal kickstarter id
+Name,Name of the project
+Category,Project category
+Subcategory,Project subcategory
+Country,Country the project is from
+Launched,Date the project was launched
+Deadline,Deadline date for crowdfunding
+Goal,Amount of money the creator needs to complete the project (USD)
+Pledged,Amount of money pledged by the crowd (USD)
+Backers,Number of backers
+State,Current condition the project is in (as of 2018-01-02)
