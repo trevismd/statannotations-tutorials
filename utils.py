@@ -34,12 +34,15 @@ def print_projects_by(df, row_name, func):
     print("\n".join(projects))
     
     
-def label_axes_for_subcat(ax):
+def label_plot_for_subcat(ax):
+    plt.title("Goal amounts per Tech Subcategory")
     ax.set_ylabel("Goal ($)")
     ax.set_xlabel("Tech Project Subcategory")
     
     
-def label_axes_for_state(ax):
+def label_plot_for_state(ax):
+    plt.title("Goal amounts per project State")
+
     ax.set_ylabel("Goal ($)")
     ax.set_xlabel("Project State")
     
