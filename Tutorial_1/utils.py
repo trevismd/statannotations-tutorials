@@ -37,13 +37,13 @@ def print_projects_by(df, row_name, func):
     print("\n".join(projects))
     
     
-def label_plot_for_subcat(ax):
+def label_plot_for_subcats(ax):
     plt.title("Goal amounts per Tech Subcategory", y=1.06)
     ax.set_ylabel("Goal ($)")
     ax.set_xlabel("Tech Project Subcategory", labelpad=20)
     
     
-def label_plot_for_state(ax):
+def label_plot_for_states(ax):
     plt.title("Goal amounts per project State", y=1.06)
 
     ax.set_ylabel("Goal ($)")
@@ -52,6 +52,7 @@ def label_plot_for_state(ax):
     
 def get_log_ax():
     fig, ax = plt.subplots(1, 1, figsize=(12, 6))
+    fig.patch.set_alpha(1)
     ax.set_yscale("log")
     return ax
 
