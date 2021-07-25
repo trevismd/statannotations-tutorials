@@ -50,10 +50,16 @@ def label_plot_for_states(ax):
     ax.set_xlabel("Project State", labelpad=20)
     
     
-def get_log_ax():
-    fig, ax = plt.subplots(1, 1, figsize=(12, 6))
+def get_log_ax(orient="v"):
+    if orient == "v":
+        figsize = (12, 6)
+        set_scale = "set_yscale"
+    else:
+        figsize = (10, 8)
+        set_scale = "set_xscale"
+    fig, ax = plt.subplots(1, 1, figsize=figsize)
     fig.patch.set_alpha(1)
-    ax.set_yscale("log")
+    getattr(ax, set_scale)("log")
     return ax
 
 
