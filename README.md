@@ -2,7 +2,7 @@
 
 ### Tutorial 1
 This is the first tutorial in a series explaining in detail how to use 
-[`statannotations`](https://github.com/trevismd/statannotations) (v0.4).
+[`statannotations`](https://github.com/trevismd/statannotations) (v0.4.1).
 
 In this tutorial, we go over the basic annotations features of the package, by 
 exploring part of the Kickstarter campaigns dataset. Specifically, we show
