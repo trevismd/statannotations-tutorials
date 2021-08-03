@@ -15,6 +15,6 @@ exploring part of the Kickstarter campaigns dataset. Specifically, we show
 
 You can find it as a jupyter notebook in this repository on
 [Tutorial_1/Statannotations-Tutorial-1.ipynb](./Tutorial_1/Statannotations-Tutorial-1.ipynb), 
-or as a post on Medium [here](https://medium.com/@trevismd/2bfce0394c00), which
+or as a post on Medium [here](https://medium.com/p/2bfce0394c00), which
 is based on the notebook but was then a little further refined.
  
